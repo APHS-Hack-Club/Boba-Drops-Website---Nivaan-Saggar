@@ -35,8 +35,12 @@ hr {
     border-color: red;
     border-radius: 25px;
     border-width: 5px;
-    float: right;
+    /* float: right; */
     font-size: 20px;
+}
+.directions{
+    display: flex;
+    flex-direction: column;
 }
 body{
     background: linear-gradient(#ffffff, #00ffdd);
